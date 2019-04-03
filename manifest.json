@@ -7,7 +7,7 @@
     "content_scripts":[{
 			"run_at": "document_end",			
 	    "matches":["*://github.com/*"],
-	    "css":["mermaid.forest.css"],
+	    "css":["mermaid.dark.css"],
 	    "js":["mermaid.js","init.js"]
 		}]
 }
